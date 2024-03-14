@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is my website</title>
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Chicken Caesar Salad on a<br>Stick</h1>
+    <div class = "under-heading">
+        <p class = " reviews">4 REVIEWS</p>
+        <p class = "photos">4 PHOTOS</p>
+    </div>
+    <p class = "description">This chicken Caesar-on-a-stick appetizer is a fun twist on a classic salad!</p>
+    <div class = "author-publish">
+        <p class = " author">Submitted by <b>Lindsey</b></p>
+        <p class = "publish">Published on January 8, 2015</p>
+    </div>
+    <div class = "options">
+        <div  class = "save">
+            <p><b>Save</b></p>
+            <img src = "images/Image.png" width="23px" height = "20px">
+        </div>
+        <p class = "rate"><b>Rate</b></p>
+        <p class = "print"><b>Print</b></p>
+        <p class = "share"><b>Share</b></p>
+    </div>
+    <img src = "https://www.allrecipes.com/thmb/w8Yt2ro20F-hDAc78s4cw5NKXM8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1328417-b0e310711d324a91a5b90422bad17c41.jpg" width = "55%">
+    <div class = "information">
+        <div class = "prep">
+            <p><b>Prep</b></p>
+            <p>10 mins</p>
+        </div>
+        <div class = "time">
+            <p><b>Total Time</b></p>
+            <p>10 mins</p>
+        </div>
+        <div class = "servings">
+            <p id = "count-servings"><b>8 Servings: </b></p>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+    <h2>Ingredients</h2>
+    
+    <ul>
+        <li id ="first-ingredient">8 croutons</li>
+        <br>
+        <li id ="second-ingredient">8 (1-inch) wedges romaine lettuce</li>
+        <br>
+        <li id ="third-ingredient">8 (1 ounce) cubes cooked chicken</li>
+        <br>
+        <li id ="fourth-ingredient">8 (1/2-inch) cubes Parmesan cheese, or to <br>taste</li>
+        <br>
+        <li id ="fifth-ingredient">8 bamboo toothpicks</li>
+        <br>
+        <li id ="sixth-ingredient">8 teaspoons Caesar salad dressing</li>
+    </ul>
+
+    <h2>Directions</h2>
+    <p><b>Step 1</b></p>
+    <p>Thread a crouton, romaine lettuce wedge, chicken cube, and Parmesan cheese<br> cube onto each toothpick, respectively. Arrange toothpicks on a serving platter<br>and drizzle Caesar salad dressing over each.</p>
+    <h2>Nutrition Facts (per serving)</h2>
+    <div class = "nutrition">
+        <div>
+            <p><b>102</b></p>
+            <p>Calories</p>
+        </div>
+        <div>
+            <p><b>6g</b></p>
+            <p>Fat</p>
+        </div>
+
+        <div>
+            <p><b>2g</b></p>
+            <p>Carbs</p>
+
+        </div>
+
+        <div>
+            <p><b>10g</b></p>
+            <p>Protein</p>
+        </div>
+    </div>
+
+    <h2>Other things you could try</h2>
+
+    <div class = "items-to-try">
+        <div id = "outer">
+            <div id ="first-inner">
+                <p class = "rating"><b>1</b></p>
+                <h3 class ="universe-text">Pizza Cupcakes</h3>
+
+            </div>
+            <p>These pizza cupcakes are a great portable savory snack and a tasty addition to a game-day buffet. </p>
+            <button onclick = "goLink(1);"> Read More</button>
+        </div>
+        <div id = "outer">
+            <div id ="first-inner">
+                <p class = "rating"><b>2</b></p>
+                <h3 class ="universe-text">Asian Chicken Salad
+
+                </h3>
+
+            </div>
+            <p>This Asian chicken salad makes good use of leftover chicken, whether boiled, broiled, baked, or barbecued!
+
+            </p>
+            <button onclick = "goLink(2);"> Read More</button>
+        </div>
+        <div id = "outer">
+            <div id ="first-inner">
+                <p class = "rating"><b>3</b></p>
+                <h3 class ="universe-text">Twig Salad</h3>
+
+            </div>
+            <p>I got this recipe from a very dear friend who got it from a co-worker. We tried it and people just go crazy. </p>
+            <button onclick = "goLink(3);"> Read More</button>
+        </div>
+        
+    </div>
+
+    <script src = "main.js"></script>
+
+
+</body>

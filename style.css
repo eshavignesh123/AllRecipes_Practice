@@ -1,0 +1,282 @@
+body{
+    background-color: black;
+    color: #ded3ce;
+    font-family: "Titillium Web", sans-serif;
+    margin-left: 70px;
+
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+.description{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.under-heading{
+    display:flex;
+    flex-direction: row;
+    margin-top: -35px;
+}
+
+.photos{
+    padding-left: 15px;
+    text-decoration: underline 2px orange;
+    text-underline-offset: 0.5rem;
+}
+
+.photos:hover{
+    cursor: pointer;
+    text-decoration: underline 3px orange;
+    text-underline-offset: 0.5rem;
+}
+
+.reviews{
+    padding-right:15px;
+    border-right: 2px solid #ded3ce;
+    text-decoration: underline 2px orange;
+    text-underline-offset: 0.5rem;
+}
+
+.reviews:hover{
+    cursor: pointer;
+    text-decoration: underline 3px orange;
+    text-underline-offset: 0.5rem;
+
+}
+
+.author-publish{
+    display:flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin-top:-15px;
+}
+
+.author{
+    padding-right:15px;
+    border-right: 1px solid #afaaa8;
+
+}
+
+.publish{
+    padding-left:15px;
+
+
+}
+
+.options{
+    display:flex;
+    flex-direction: row;
+    margin-top:0x;
+    margin-bottom:20px;
+    background-color: #f5f6ea;
+    width:405px;
+    border-radius: 4px;
+}
+
+
+.save{
+
+    display:flex;
+    flex-direction: row;
+    background-color: #d54215;
+    border-radius: 4px 0px 0px 4px;
+    padding-left:30px;
+    padding-right:30px;
+    align-items: center;
+}
+
+.save p {
+    margin-right: 7px;
+}
+
+.save:hover{
+    text-decoration: underline 1px white;
+    text-underline-offset: 0.2rem;
+}
+
+
+.rate{
+    color:black;
+    border-right: 1px solid #000000;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.rate:hover{
+    text-decoration: underline 1px #d54215;
+    text-underline-offset: 0.2rem;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.print{
+    color:black;
+    border-right: 1px solid #000000;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.print:hover{
+    text-decoration: underline 1px #d54215;
+    text-underline-offset: 0.2rem;
+}
+
+.share{
+    color:black;
+    border-right: 1px solid #000000;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+
+.share:hover{
+    text-decoration: underline 1px #d54215;
+    text-underline-offset: 0.2rem;
+}
+
+.information{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #2f2d2f 2px solid;
+    justify-content: space-between;
+    width:49%;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+
+.container
+{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+#top
+{
+    background-color: pink;
+    position:relative; /*moves with the page*/
+    top:25px;
+    left:25px;
+
+}
+
+#bottom
+{
+    background-color: purple;
+    position:absolute;
+    top:50px;
+}   
+
+
+
+.rating
+{
+    background-color: #01cd79;
+    width:20px;
+    height:20px;
+    padding:10px;
+    border-radius: 10%;
+    text-align:center;
+    line-height: 20px;
+
+
+}
+
+#first-inner
+{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:-20px;
+    margin-top:-10px;
+}
+
+#outer
+{
+    width:250px;
+    background-color: #ded3ce;
+    padding:15px;
+    border-radius: 10px;
+    color:black;
+}
+
+.universe-text
+{
+    margin-left:15px;
+    font-size:20px;
+
+}
+
+button{
+    background-color:#403d40;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    width:100px;
+    height:30px;
+    line-height:13px;
+}
+
+button:hover{
+    background-color:#2f2d2f;
+    cursor: pointer;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url('Images/crouton-2.png');
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url('Images/crouton-2.png');
+    cursor: pointer;
+  }
+
+  .nutrition{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+    justify-content: space-between;
+  }
+
+  .items-to-try{
+    display:flex;
+    flex-direction: row;
+    width:93%;
+    justify-content: space-between;
+  }
